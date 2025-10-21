@@ -1,0 +1,11 @@
+/* Hide metadata but reveal on hover */
+.markdown-preview-view .metadata-container {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  display: none !important;
+}
+
+.markdown-preview-view .metadata-container:hover {
+  opacity: 1;
+  display: block;
+}
